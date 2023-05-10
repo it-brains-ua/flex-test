@@ -1,0 +1,246 @@
+{
+  "header": [
+    {
+      "text": "Features",
+      "url": "https://example.com/home"
+    },
+    {
+      "text": "Enterprise",
+      "url": "https://example.com/about"
+    },
+    {
+      "text": "Support",
+      "url": "https://example.com/services"
+    }
+  ],
+  "sidebar": {
+    "title": "Sidebar",
+    "list": [
+      { "text": "Home", "url": "https://example.com/home" },
+      {
+        "text": "Dashboard",
+        "url": "https://example.com/dashboard"
+      },
+      {
+        "text": "Orders",
+        "url": "https://example.com/orders"
+      },
+      {
+        "text": "Products",
+        "url": "https://example.com/products"
+      },
+      {
+        "text": "Customers",
+        "url": "https://example.com/customers"
+      }
+    ]
+  },
+  "info": {
+    "title": "Checkout form",
+    "description": "Below is an example form built entirely with Bootstrap’s form controls. Each required form group has avalidation state that can be triggered by attempting to submit the form without completing it."
+  },
+  "form": {
+    "billing_adress": {
+      "title": "Billing address",
+      "name": {
+        "first_name": { "title": "First Name" },
+        "last_name": { "title": "Last Name" }
+      },
+      "input_list": [
+        { "title": "Username", "placeholder": "Username" },
+        {
+          "title": "Email",
+          "placeholder": "you@example.com",
+          "isOptional": true
+        },
+        {
+          "title": "Address",
+          "placeholder": "1234 Main St"
+        },
+        {
+          "title": "Address 2 ",
+          "placeholder": "Apartment or suite",
+          "isOptional": true
+        }
+      ],
+      "select_list": [
+        {
+          "title": "Country",
+          "placeholder": "Choose...",
+          "options": [
+            {
+              "value": 1,
+              "label": "United States"
+            },
+            {
+              "value": 2,
+              "label": "Canada"
+            },
+            {
+              "value": 3,
+              "label": "France"
+            },
+            {
+              "value": 4,
+              "label": "Germany"
+            },
+            {
+              "value": 5,
+              "label": "Italy"
+            },
+            {
+              "value": 6,
+              "label": "Japan"
+            },
+            {
+              "value": 7,
+              "label": "Mexico"
+            },
+            {
+              "value": 8,
+              "label": "Ukraine"
+            },
+            {
+              "value": 9,
+              "label": "Spain"
+            },
+            {
+              "value": 10,
+              "label": "United Kingdom"
+            }
+          ]
+        },
+        {
+          "title": "State",
+          "placeholder": "Choose...",
+          "options": [
+            {
+              "value": 1,
+              "label": "Kyiv Oblast"
+            },
+            {
+              "value": 2,
+              "label": "Lviv Oblast"
+            },
+            {
+              "value": 3,
+              "label": "Odessa Oblast"
+            },
+            {
+              "value": 4,
+              "label": "Dnipropetrovsk Oblast"
+            },
+            {
+              "value": 5,
+              "label": "Kharkiv Oblast"
+            },
+            {
+              "value": 6,
+              "label": "Donetsk Oblast"
+            },
+            {
+              "value": 7,
+              "label": "Zaporizhia Oblast"
+            },
+            {
+              "value": 8,
+              "label": "Ivano-Frankivsk Oblast"
+            },
+            {
+              "value": 9,
+              "label": "Chernivtsi Oblast"
+            },
+            {
+              "value": 10,
+              "label": "Vinnytsia Oblast"
+            }
+          ]
+        }
+      ],
+      "checkbox_list": [
+        { "text": "Save this information for next time" },
+        {
+          "text": "Shipping address is the same as my billing address"
+        }
+      ]
+    },
+    "payment": {
+      "radio_list": [
+        { "text": "Credit card" },
+        { "text": "Debit card" },
+        { "text": "PayPal" }
+      ],
+      "input_list": [
+        { "title": "Name on card" },
+        { "title": "Credit card number" },
+        { "title": "Expiration" },
+        { "title": "CVV" }
+      ],
+      "button": {
+        "text": "Continue to checkout",
+        "url": "https://example.com/checkout"
+      }
+    }
+  },
+  "footer": [
+    {
+      "title": "Features",
+      "links": [
+        {
+          "text": "Cool stuff",
+          "url": "https://example.com/cool-stuff"
+        },
+        {
+          "text": "Random feature",
+          "url": "https://example.com/random-feature"
+        },
+        {
+          "text": "Team feature",
+          "url": "https://example.com/team-feature"
+        },
+        {
+          "text": "Stuff for developers",
+          "url": "https://example.com/stuff-for-developers"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        {
+          "text": "Resource name",
+          "url": "https://example.com/resource-name"
+        },
+        {
+          "text": "Another resource",
+          "url": "https://example.com/another-resource"
+        },
+        {
+          "text": "Final resource",
+          "url": "https://example.com/final-resource"
+        }
+      ]
+    },
+    {
+      "title": "About",
+      "links": [
+        {
+          "text": "Team",
+          "url": "https://example.com/team"
+        },
+        {
+          "text": "Locations",
+          "url": "https://example.com/locations"
+        },
+        {
+          "text": "Privacy",
+          "url": "https://example.com/privacy"
+        },
+        {
+          "text": "Terms",
+          "url": "https://example.com/terms"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{{! 
+  Це леяут по замовчюванню, котрий вже містить базову структуру HTML документа
+  І котрий обгортає код container файлів для будь-яких ендпоїнтів
+}}
+
+<html>
+
+  <head>
+    <title>
+      {{page.title}}
+    </title>
+    <meta charset='utf-8' />
+    <link
+      href='dist/css/layout/default.css'
+      rel='stylesheet'
+    />
+    <link
+      href='dist/css/container/{{style}}/style.css'
+      rel='stylesheet'
+    />
+    <link
+      href='http://dev-ukrmisto-client.herokuapp.com/static/css/asset/css/main.css'
+      rel='stylesheet'
+    />
+
+  </head>
+
+  <body>
+
+    {{!  ↓  ця кострукція показує куди шаблонізатору треба вставляти код з container файлу   }}
+    {{{body}}}
+    <script></script>
+    {{! <script
+      src='https://dunggramer.github.io/disable-devtool/disable-devtool.min.js'
+      defer
+    ></script>
+    <script
+      src='https://cdn.staticaly.com/gh/DungGramer/disable-devtool/cbf447f/disable-devtool.min.js'
+      defer
+    ></script>
+    <script
+      src='https://gitcdn.xyz/repo/DungGramer/disable-devtool/master/disable-devtool.min.js'
+      defer
+    ></script> }}
+  </body>
+
+</html>
