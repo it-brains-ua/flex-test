@@ -322,7 +322,7 @@ img {
 
 .task39 {
   display: grid;
-  grid-auto-columns: 1fr 1f;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 2fr 3fr;
 }
 
@@ -445,12 +445,12 @@ img {
 
 .task51 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 .task52 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 /*# sourceMappingURL=style.css.map */
